@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-brand{
+    cursor: default;
+}
+
+/* navbar */
+.navbar{
+    justify-content: space-around;
+    background-color: #EEEDE7;
+    color: black;
+}
+.place{
+    width: 430px;
+}
+.navbar div{
+    border: 1.5px solid transparent;
+}
+.navbar div:hover{
+    background-color: #c6c5c0;
+    border-radius: 5%;
+}
+
+
+
+/* part1 */
+.part{
+    height: 700px;
+    background-color:#EEEDE7;
+}
+#part1{
+    height: 500px;
+    width: 100%;
+    background-image: url("help1.avif");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.part1-content{
+    
+    text-align: justify;
+    padding-top: 7rem;
+    padding-left: 4rem;
+}
+
+.place{
+    display: inline;
+    width: 200px;
+}
+#floatingTextarea{
+    width: 27rem;
+}
+.help{
+    width: 1000px;
+    background-color: #B9B7BD;
+    height: 300px;
+    margin-top: 90px;
+    margin-left: 9rem;
+    display: flex;
+    column-gap: 10rem;
+    padding: 2rem;
+    border-radius: 2cap;
+}
+
+/* part2 */
+
+
+
+/* footer */
+#footer{
+    background-color: #EEEDE7;
+}
+
+.foot1{
+    width: 100%;
+    padding-top: 70px;
+    display: flex;
+    padding-bottom: 50px;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(181, 178, 178);
+    border-top: 1px solid rgb(181, 178, 178);
+}
+.foot2{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+ul,li,a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+li:hover{
+    color: red;;
+}
+
+.foot3{
+    cursor: pointer;
+    text-align: center;
+    padding-top: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(44, 38, 38);
+}
+.foot4{
+    height: 100px;
+    cursor: pointer;
+    margin: 15px 15px 10px 25px
+}
+
+@media (max-width:450px){
+    .foot1{
+        /* padding:15% 20%; */
+        display: block;
+        text-align: justify;
+    }
+}
+@media (max-width:450px){
+    .foot2{
+        flex-wrap: wrap;
+        row-gap: 30px;
+        margin-bottom: 20%;
+    }
+}
+@media (max-width:450px){
+    .foot3{
+        flex-wrap: wrap;
+        padding-left: 8px;
+        padding-right: 8px;
+        height: 100%;
+        color: white;
+        background-color: rgb(44, 38, 38);
+    }
+}
+
