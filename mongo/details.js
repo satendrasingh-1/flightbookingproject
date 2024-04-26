@@ -9,7 +9,7 @@ main()
 .catch(err => console.log(err));
 
 async function main() {
-  await mongoose.connect('mongodb://127.0.0.1:27017/ticketbooking');
+  await mongoose.connect('mongodb+srv://satendraprataps56:Windos123@cluster0.cig8esf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
 }
 
 
