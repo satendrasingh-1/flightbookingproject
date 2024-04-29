@@ -47,7 +47,7 @@ const userSchema=new mongoose.Schema({
   { img:"aa.png", flightname:"American Airline", from: "LAS", to: "LAX", start: "10pm", end: "12pm", totaltime:"02h 10m", flightno: 2487 },
   ];
   
-  // flightdetail.insertMany(data);
+  flightdetail.insertMany(data);
   
   module.exports=flightdetail;
   
